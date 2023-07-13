@@ -7,7 +7,7 @@ SKILLFACTORY - JS - MODULE 9 - AJAX
 
 XML:
 
-<list>
+```<list>
   <student>
     <name lang="en">
       <first>Ivan</first>
@@ -24,7 +24,7 @@ XML:
     <age>58</age>
     <prof>driver</prof>
   </student>
-</list>
+</list>```
 
 JS-объект:
 
@@ -41,7 +41,7 @@ JS-объект:
 
 JSON:
 
-{
+```{
  "list": [
   {
    "name": "Petr",
@@ -54,16 +54,16 @@ JSON:
    "prof": "pilot"
   }
  ]
-}
+}```
 
 JS-объект:
 
-{
+```{
   list: [
     { name: 'Petr', age: 20, prof: 'mechanic' },
     { name: 'Vova', age: 60, prof: 'pilot' },
   ]
-}
+}```
 
 ## Задание 3 (9.3-3)
 
