@@ -24,16 +24,18 @@ XML:
     <age>58</age>
     <prof>driver</prof>
   </student>
-</list>```
+</list>
+```
 
 JS-объект:
 
-{
+```{
   list: [
     { name: 'Ivan Ivanov', age: 35, prof: 'teacher', lang: 'en' },
     { name: 'Петр Петров', age: 58, prof: 'driver', lang: 'ru' },
   ]
 }
+```
 
 ## Задание 2. (9.2-2)
 
@@ -54,7 +56,8 @@ JSON:
    "prof": "pilot"
   }
  ]
-}```
+}
+```
 
 JS-объект:
 
@@ -63,7 +66,8 @@ JS-объект:
     { name: 'Petr', age: 20, prof: 'mechanic' },
     { name: 'Vova', age: 60, prof: 'pilot' },
   ]
-}```
+}
+```
 
 ## Задание 3 (9.3-3)
 
