@@ -1,0 +1,93 @@
+body {
+  margin: 0 auto;
+  background-color: #000;
+}
+
+label, .result, h1, input, .btn {
+  font: 1.2rem "Trebuchet MS", Helvetica, sans-serif
+}
+
+h1 {
+  font-size: 2.3rem;
+}
+
+.flexbox, .flexbox-btn {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.flexbox-btn {
+  width: 245px;
+}
+
+.flexbox > * {
+  margin: 10px;
+  color: greenyellow;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  box-shadow: none;
+  width: inherit;
+  margin: 5px 10px;
+  padding: 10px 15px;
+  border-radius: 1px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  background: #ffdc18;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+.btn:active {
+  cursor: -moz-grabbing;
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+
+#num {
+  color: black;
+  outline: black auto;
+  width: 25%;
+  margin-bottom: 1rem;
+  text-align: center;
+  text-indent: 0.8rem;
+}
+
+#num:focus {
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  width: 100%;
+}
+
+#num:out-of-range {
+  color: #ff0000;
+  outline: red auto;
+}
+
+.card {
+  width: 200px;
+  margin: 20px;
+}
+
+.card-image {
+  display: block;
+  width: 200px;
+  height: 150px;
+}
+
+.result {
+  display: flex;
+  flex-flow: row wrap;
+  max-width: 720px;
+}
