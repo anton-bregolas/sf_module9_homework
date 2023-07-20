@@ -36,15 +36,22 @@ function displayResult(apiData) {
 
   apiData.forEach(item => {
 
+    // const cardBlock = `
+    //   <div class="card">
+    //     <img
+    //       src="${item.download_url}"
+    //       class="card-image"
+    //     />
+    //     <p class="card-text">${item.author}</p>
+    //   </div>
+    // `;
+
     const cardBlock = `
-      <div class="card">
-        <img
-          src="${item.download_url}"
-          class="card-image"
-        />
-        <p>${item.author}</p>
-      </div>
-    `;
+    <div class="card">
+      <div class="card-image" style="background-image: url('${item.download_url}')"></div>
+      <p class="card-text">${item.author}</p>
+    </div>
+  `;
 
     cards = cards + cardBlock;
   });

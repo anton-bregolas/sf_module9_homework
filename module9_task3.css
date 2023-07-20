@@ -44,15 +44,15 @@ h1 {
 
 .btn:hover {
   transform: scale(1.05);
+  cursor: grab;
   cursor: -moz-grab;
   cursor: -webkit-grab;
-  cursor: grab;
 }
 
 .btn:active {
+  cursor: grabbing;
   cursor: -moz-grabbing;
   cursor: -webkit-grabbing;
-  cursor: grabbing;
 }
 
 #num {
@@ -76,14 +76,24 @@ h1 {
 }
 
 .card {
+  display: flex;
+  flex-flow: row wrap;
   width: 200px;
+  height: 180px;
+  position: relative;
   margin: 20px;
 }
 
 .card-image {
-  display: block;
-  width: 200px;
-  height: 150px;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 75%;
+}
+
+.card-text {
+  width: inherit;
+  text-align: center;
 }
 
 .result {
