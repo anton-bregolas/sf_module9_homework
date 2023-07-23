@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SF Module 9 Task 5</title>
+  <link rel="stylesheet" type="text/css" href="module9_task5.css">
+</head>
+  <body>
+
+    <div class="flexbox">
+
+      <h1>SF Module 9 Task 5</h1>
+
+      <label for="input-form">Input any number</label>
+
+      <div class="flexbox-btn" id="input-form">
+
+        <label for="pagenum">Page No.</label>
+
+        <input type="number" class="num-box" id="pagenum" name="pagenum" required minlength="1" maxlength="2" min="1" max="10">
+
+        <label for="limit">Limit</label>
+        
+        <input type="number" class="num-box" id="limit" name="limit" required minlength="1" maxlength="2" min="1" max="10">
+
+        <button class="btn" id="btn_request">Request</button>
+        
+      </div>
+
+      <div class="result"></div>
+
+    </div>
+
+    <script src="module9_task5.js"></script>
+
+  </body>
+</html>
